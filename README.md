@@ -84,5 +84,5 @@ You will need the following things properly installed on your computer.
 
 ### Ember.js
 
-* Ember.js guides [https://guides.emberjs.com/release/](https://guides.emberjs.com/release/)
+* Ember.js Guides [https://guides.emberjs.com/release/](https://guides.emberjs.com/release/)
 * Ember.js API [https://api.emberjs.com/ember/release](https://api.emberjs.com/ember/release)
