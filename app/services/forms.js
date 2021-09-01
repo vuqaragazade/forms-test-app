@@ -1,22 +1,23 @@
 import Service from '@ember/service';
-import { getOwner } from '@ember/application';
 import definitions from '../lib/definitions';
+import { inject as service } from '@ember/service';
 
 export default class FormsService extends Service {
+
+  @service models;
 
   _loadDefinition(type) {
     return definitions[type];
   }
 
   _createModel(type, definition) {
-    let owner = getOwner(this);
-    let factory = owner.factoryFor(`model:forms/${type}`).class;
-    return new factory(owner, { type, definition });
+    return this.models.create(`forms/${type}`, { type, definition });
   }
 
   async createModel(type) {
     let definition = this._loadDefinition(type);
-    return this._createModel(type, definition);
+    let model = this._createModel(type, definition);
+    return model;
   }
 
 }
