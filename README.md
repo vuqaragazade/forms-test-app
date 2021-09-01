@@ -2,7 +2,7 @@
 
 Let's imagine this is begining of an app where site owner can define forms for users to fill. Where each form has a definition (possibly created using some kind of backend user interface) and interdependencies where choice of one property influences other properties (like selecting book type enables or disables some paper choices or similar).
 
-Right now app has basic skeleton and fully defined single product -- `book` (with just few properties).
+Right now app has basic skeleton and fully defined single product -- `book` (with just a few properties).
 
 Your task is to implement:
 * `form` model with validation and `disabled` state dependencies
