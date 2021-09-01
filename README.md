@@ -4,10 +4,10 @@ Let's imagine this is begining of an app where site owner can define forms for u
 
 Right now app has basic skeleton and fully defined single product -- `book` (with just a few properties).
 
-Your task is to implement:
-* `form` model with validation and `disabled` state dependencies
-* User interface for form editing
-* Output of filled in data with validation status
+Your task is to:
+* extend and implement `form` model and add classes for each property type with validation and `disabled` state dependencies
+* implement user interface using components for each property type for form editing
+* implement filled in data with validation status serialization to JSON
 
 To do that, let's look at the definition options:
 
@@ -82,3 +82,7 @@ You will need the following things properly installed on your computer.
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
+### Ember.js
+
+* Ember.js guides [https://guides.emberjs.com/release/](https://guides.emberjs.com/release/)
+* Ember.js API [https://api.emberjs.com/ember/release](https://api.emberjs.com/ember/release)
