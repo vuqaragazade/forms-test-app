@@ -72,7 +72,7 @@ You will need the following things properly installed on your computer.
 
 ### Installation
 
-* `git clone git@github.com:Boekdrukken/forms-test-app.git` this repository
+* `git clone git@github.com:Boekdrukken/forms-test-app.git`
 * `cd forms-test-app`
 * `npm install`
 
@@ -80,7 +80,6 @@ You will need the following things properly installed on your computer.
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
 ### Ember.js
 
