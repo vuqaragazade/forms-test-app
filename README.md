@@ -72,7 +72,8 @@ You will need the following things properly installed on your computer.
 
 ### Installation
 
-* `git clone git@github.com:Boekdrukken/forms-test-app.git`
+* Please fork [https://github.com/Boekdrukken/forms-test-app](https://github.com/Boekdrukken/forms-test-app) repo on GitHub
+* `git clone git@github.com:<your-username>/forms-test-app.git`
 * `cd forms-test-app`
 * `npm install`
 
