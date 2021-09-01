@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+$font-family: 'Roboto Mono', monospace;
+$font-size-normal: 15px;
+$font-weight-bold: 500;
+
+$color-black: #000;
+
+$red: rgba(255, 0, 0, 0.1);
+
+@import "body";
+
+@import "block/application";
+@import "block/application/header";
+@import "block/container";
+@import "block/json";
