@@ -47,7 +47,7 @@ Expected form input result is the following:
 }
 ```
 
-Which for each property contains value(s) and validation status with invalid status reason.
+Result for each property should contain value(s) and validation status with reason for invalid status.
 
 Please use `<Block::Json @value={{@form.result}}/>` to render it below the form ui.
 
