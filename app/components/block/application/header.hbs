@@ -1,6 +1,16 @@
 <div class="block-application-header" ...attributes>
-  <div class="items">
-    <LinkTo class="item" @route="index">Forms</LinkTo>
-    <LinkTo class="item" @route="forms.new" @model='book'>New book</LinkTo>
+  <div id="logo">
+    <h1><LinkTo class="home" @route="index">Print Intuitively</LinkTo></h1>
+  </div>
+  <div class="header-menu">
+    <nav>
+      <ul>
+        <li>How it works</li>
+        <li>Company</li>
+        <li>Prices</li>
+      </ul>
+    </nav>
+    <button>Contact us</button>
   </div>
 </div>
+<!--<LinkTo class="item" @route="forms.new" @model='book'>New book</LinkTo>-->

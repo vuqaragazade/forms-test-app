@@ -1,3 +1,5 @@
+$mH: 1619px;
+$sH: 657px;
 * {
   box-sizing: border-box;
 }
@@ -15,9 +17,57 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(180deg, #A088E4 0%, #FFFFFF 100%);
 }
 
 a {
   color: $color-black;
   text-decoration: none;
+}
+.block-application-header {
+  background-color: #A83FDA;
+  min-height: ((80px*$sH)/$mH);
+  padding: 13px 80px 13px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+#logo {
+  color: #FFF;
+  font-family: Lovelace;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 36px*$sH/$mH;
+  line-height: 150%;
+}
+#logo a {
+  color: #FFF;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.header-menu nav {
+  margin-right: 80px;
+}
+.header-menu ul li {
+  display: inline;
+  margin-right: 40px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+}
+.header-menu button {
+  background-color: #A83FDA;
+  color: #fff;
+  border: 1px solid #FFFFFF;
+  border-radius: 16px;
+  padding: 8px 16px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
 }
